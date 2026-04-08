@@ -12,6 +12,11 @@
   - Implements the FOIL algorithm for learning Horn clause rules from positive and negative examples.
   - See `foil/README.md` for the ILP overview, example usage, and tests.
 
+- `rlgg_ilp/` — Relative Least General Generalization (RLGG) ILP System
+  - Implements the RLGG algorithm for learning Horn clause rules from positive examples.
+  - Computes generalizations relative to background theory using the logical engine.
+  - See `rlgg_ilp/README.md` for algorithm details, examples, and usage.
+
 - `tests/` — Project tests
   - Contains test cases for the interpreter and learner.
 
@@ -40,6 +45,7 @@ Activate the workspace Python environment if required, then run tests or example
 
 - `logical_engine/README.md`
 - `foil/README.md`
+- `rlgg_ilp/README.md`
 
 ## Running tests
 
@@ -51,4 +57,4 @@ PYTHONPATH=/work/TPmeta_interpreter pytest -q
 
 ## Notes
 
-For the best project-level overview, start with this file and then read the directory-specific READMEs in `logical_engine/` and `foil/`.
+For the best project-level overview, start with this file and then read the directory-specific READMEs in `logical_engine/`, `foil/`, and `rlgg_ilp/`.
