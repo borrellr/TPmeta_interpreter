@@ -1,1 +1,3 @@
 work.code-workspace
+__pycache__/
+*.pyc
