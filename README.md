@@ -17,6 +17,12 @@
   - Computes generalizations relative to background theory using the logical engine.
   - See `rlgg_ilp/README.md` for algorithm details, examples, and usage.
 
+- `golem/` — Golem ILP System (Muggleton & Feng)
+  - Implements the Golem algorithm for learning Horn clause rules from positive examples only.
+  - Uses relative least-general generalization (LGG) under background theory.
+  - Built on the logical engine for deductive inference.
+  - See `golem/README.md` for algorithm details, examples, and usage.
+
 - `tests/` — Project tests
   - Contains test cases for the interpreter and learner.
 
@@ -46,6 +52,7 @@ Activate the workspace Python environment if required, then run tests or example
 - `logical_engine/README.md`
 - `foil/README.md`
 - `rlgg_ilp/README.md`
+- `golem/README.md`
 
 ## Running tests
 
