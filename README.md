@@ -23,6 +23,12 @@
   - Built on the logical engine for deductive inference.
   - See `golem/README.md` for algorithm details, examples, and usage.
 
+- `advice_logic_3/` — Ivan Bratko's Advice Logic 3 System
+  - A classic knowledge representation system implementing Horn clause reasoning for decision support and recommendations.
+  - Demonstrates declarative knowledge representation, rule-based inference, and backward chaining.
+  - Includes practical examples for tennis recommendations, medical diagnosis, business decisions, and activity planning.
+  - See `advice_logic_3/README.md` for architecture, examples, and usage.
+
 - `tests/` — Project tests
   - Contains test cases for the interpreter and learner.
 
@@ -53,6 +59,7 @@ Activate the workspace Python environment if required, then run tests or example
 - `foil/README.md`
 - `rlgg_ilp/README.md`
 - `golem/README.md`
+- `advice_logic_3/README.md`
 
 ## Running tests
 
