@@ -26,8 +26,9 @@
 - `advice_logic_3/` — Ivan Bratko's Advice Logic 3 System
   - A classic knowledge representation system implementing Horn clause reasoning for decision support and recommendations.
   - Demonstrates declarative knowledge representation, rule-based inference, and backward chaining.
-  - Includes practical examples for tennis recommendations, medical diagnosis, business decisions, and activity planning.
+  - Includes practical examples for tennis recommendations, medical diagnosis, business decisions, activity planning, and chess endgames.
   - See `advice_logic_3/README.md` for architecture, examples, and usage.
+  - See `advice_logic_3/CHESS_RKKN_ENDGAME.md` for the RKKN (Rook & King vs Knight & King) chess endgame example.
 
 - `tests/` — Project tests
   - Contains test cases for the interpreter and learner.
