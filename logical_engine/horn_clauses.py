@@ -22,3 +22,15 @@ class KnowledgeBase:
 
     def add_rule(self, rule):
         self.rules.append(rule)
+
+    def display_kb_contents(self):
+        """Display the contents of the knowledge base."""
+        print("\n=== Knowledge Base Contents ===")
+        print(f"\nFacts ({len(self.facts)}):")
+        for fact in self.facts:
+            print(f"  {fact.head}")
+        print(f"\nRules ({len(self.rules)}):")
+        for rule in self.rules:
+            body_str = ", ".join(rule.body)
+            print(f"  {rule.head} :- {body_str}")
+        print()
