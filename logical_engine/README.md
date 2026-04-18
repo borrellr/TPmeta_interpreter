@@ -46,6 +46,9 @@ kb.add_rule(Rule("child(X, Y)", ["parent(Y, X)"]))
 kb.add_rule(Rule("ancestor(X, Y)", ["parent(X, Y)"]))
 kb.add_rule(Rule("ancestor(X, Y)", ["parent(X, Z)", "ancestor(Z, Y)"]))
 
+# Display knowledge base contents
+kb.display_kb_contents()
+
 # Query
 solutions = list(solve("ancestor(john, alice)", kb))
 print(f"Found {len(solutions)} solution(s)")
@@ -186,6 +189,7 @@ class KnowledgeBase:
     def __init__(self)
     def add_fact(self, fact: Fact)
     def add_rule(self, rule: Rule)
+    def display_kb_contents(self)
 ```
 
 ### Substitution
