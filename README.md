@@ -23,7 +23,13 @@
   - Built on the logical engine for deductive inference.
   - See `golem/README.md` for algorithm details, examples, and usage.
 
-- `advice_logic_3/` — Ivan Bratko's Advice Logic 3 System
+- `pal/` — Perturbation-based Active Learning System (Morales)
+  - Implements a PAL algorithm for inductive logic programming using perturbation-driven example generation.
+  - Integrates a generalization pipeline with domain theory expansion, LGG, and concept refinement.
+  - Includes a perturbation module, a generalization module, the main learn_concept implementation, and unit tests.
+  - See `pal/README.md` for algorithm details, examples, and usage.
+
+- `advice_logic_3/` — Ivan Bratko's Advice Logic 3 System (Bratko)
   - A classic knowledge representation system implementing Horn clause reasoning for decision support and recommendations.
   - Demonstrates declarative knowledge representation, rule-based inference, and backward chaining.
   - Includes practical examples for tennis recommendations, medical diagnosis, business decisions, activity planning, and chess endgames.
@@ -61,6 +67,7 @@ Activate the workspace Python environment if required, then run tests or example
 - `rlgg_ilp/README.md`
 - `golem/README.md`
 - `advice_logic_3/README.md`
+- `pal/README.md`
 
 ## Running tests
 
@@ -72,4 +79,4 @@ PYTHONPATH=/work/TPmeta_interpreter pytest -q
 
 ## Notes
 
-For the best project-level overview, start with this file and then read the directory-specific READMEs in `logical_engine/`, `foil/`, and `rlgg_ilp/`.
+For the best project-level overview, start with this file and then read the directory-specific READMEs in `advice_logic 3/`, `logical_engine/`, `foil/`, `pal/`, and `rlgg_ilp/`.
