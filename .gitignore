@@ -1,3 +1,4 @@
 work.code-workspace
 __pycache__/
 *.pyc
+chess/chess_domain.kb
